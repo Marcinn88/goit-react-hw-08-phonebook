@@ -21,11 +21,11 @@ function ContactItem({ contact }) {
 
   const confirm = e => {
     handleDelete(e.target.value);
-    message.success('Click on Yes');
+    message.success('Contact deleted.');
   };
   const cancel = e => {
     console.log(e);
-    message.error('Click on No');
+    message.error('Action aborted.');
   };
 
   const handleDelete = () => {
