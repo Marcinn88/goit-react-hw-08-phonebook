@@ -36,12 +36,6 @@ export const Btn = styled.button`
   font-size: 14px;
   border-radius: 6px;
   border: 1px solid;
-  :hover {
-    background-color: #1677ff;
-    > svg {
-      fill: #fff;
-    }
-  }
 `;
 
 export const BtnEdit = styled.button`
@@ -55,10 +49,4 @@ export const BtnEdit = styled.button`
   font-size: 14px;
   border-radius: 6px;
   border: 1px solid;
-  :hover {
-    background-color: #1677ff;
-    > svg {
-      fill: #fff;
-    }
-  }
 `;

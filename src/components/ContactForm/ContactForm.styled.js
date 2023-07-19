@@ -22,17 +22,10 @@ export const Button = styled.button`
     height: 30px;
     fill: #02ba52;
   }
-  /* padding: 10px 20px; */
   margin-top: 5px;
   font-size: 14px;
   border-radius: 6px;
   border: 1px solid;
-  :hover {
-    background-color: #1677ff;
-    > svg {
-      fill: #fff;
-    }
-  }
 `;
 
 export const Text = styled.p`
